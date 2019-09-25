@@ -5,28 +5,31 @@
     build-mode="COLD"
     density="560dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
+    ir-eligibility="CLASS_ADDED"
     plugin-version="3.4.2"
-    timestamp="1569408005469"
+    timestamp="1569408796594"
     token="-1579142795901711332"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="5016" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="92" />
+        duration="75" />
     <task
         name="verifier"
-        duration="96" />
+        duration="4" />
 
     <artifact
         location="/Users/student/Downloads/android-kotlin-fundamentals-apps-master/DessertClickerLogs/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
+    <artifact
+        location="/Users/student/Downloads/android-kotlin-fundamentals-apps-master/DessertClickerLogs/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
@@ -74,12 +77,15 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1569408005469"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1569408796594"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/student/Downloads/android-kotlin-fundamentals-apps-master/DessertClickerLogs/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/student/Downloads/android-kotlin-fundamentals-apps-master/DessertClickerLogs/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>
